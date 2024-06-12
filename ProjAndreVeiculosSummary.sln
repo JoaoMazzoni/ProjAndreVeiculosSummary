@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAndreVeiculosSummary", "ProjAndreVeiculosSummary\ProjAndreVeiculosSummary.csproj", "{79AF8DBD-017B-4C0D-B901-0E85702EDA07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjAndreVeiculosSummary", "ProjAndreVeiculosSummary\ProjAndreVeiculosSummary.csproj", "{79AF8DBD-017B-4C0D-B901-0E85702EDA07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{BCC6C8F3-8BCD-4D05-92C8-DADCF69960F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{BCC6C8F3-8BCD-4D05-92C8-DADCF69960F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAndreVeiculosSummary.BankAPI", "ProjAndreVeiculosSummary.BankAPI\ProjAndreVeiculosSummary.BankAPI.csproj", "{4DC456D1-1C90-4B2E-B3B4-866B6708D4A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjAndreVeiculosSummary.BankAPI", "ProjAndreVeiculosSummary.BankAPI\ProjAndreVeiculosSummary.BankAPI.csproj", "{4DC456D1-1C90-4B2E-B3B4-866B6708D4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAndreVeiculosSummary.Test", "ProjAndreVeiculosSummary.Test\ProjAndreVeiculosSummary.Test.csproj", "{197E87E7-D5A6-4406-94A5-35732962D6E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4DC456D1-1C90-4B2E-B3B4-866B6708D4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC456D1-1C90-4B2E-B3B4-866B6708D4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC456D1-1C90-4B2E-B3B4-866B6708D4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197E87E7-D5A6-4406-94A5-35732962D6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197E87E7-D5A6-4406-94A5-35732962D6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197E87E7-D5A6-4406-94A5-35732962D6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197E87E7-D5A6-4406-94A5-35732962D6E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -93,8 +93,10 @@ namespace ProjAndreVeiculosSummary.Controllers
             _context.Address.Add(address);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetAddress", new { id = address.Id }, address);
+            return address; //CreatedAtAction("GetAddress", new { id = address.Id }, address);
         }
+
+
 
         // DELETE: api/Addresses/5
         [HttpDelete("{id}")]
